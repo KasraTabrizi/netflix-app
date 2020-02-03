@@ -1,0 +1,45 @@
+.card{
+    width: 40%;
+    background: linear-gradient(to right, red, purple);
+    margin: 10px;   
+    border-radius: 15px;
+    color: whitesmoke;
+    overflow: hidden;
+    padding: 1rem;
+    padding: 3px;
+}
+
+.card-content{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(8, 28, 36, 0.9);
+    height: 100%;
+    padding: 1rem;
+    border-radius: 15px;
+    margin: 2px;
+}
+
+.image-box{
+    overflow: hidden;
+    border: 1px solid white;
+}
+
+.image-box img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: contain;
+}
+
+.right-content{
+    margin-left: 35px;
+}
+.vote-box{
+    display: none;
+}
+
+.card p{
+    font-size: 1em;
+    /* padding: 15px; */
+}
+
